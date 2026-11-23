@@ -1,21 +1,21 @@
 README
 ======
 
-.. |dtool| image:: https://github.com/livMatS/dtool-lookup-api/blob/main/icons/22x22/dtool_logo.png?raw=True
+.. |dtool| image:: https://github.com/jic-dtool/dtool-lookup-api/blob/main/icons/22x22/dtool_logo.png?raw=True
     :height: 20px
-    :target: https://github.com/livMatS/dtool-lookup-api
+    :target: https://github.com/jic-dtool/dtool-lookup-api
 
 .. |pypi| image:: https://img.shields.io/pypi/v/dtool-lookup-api
     :alt: PyPI
     :target: https://pypi.org/project/dtool-lookup-api/
 
-.. |tag| image:: https://img.shields.io/github/v/tag/livMatS/dtool-lookup-api
+.. |tag| image:: https://img.shields.io/github/v/tag/jic-dtool/dtool-lookup-api
     :alt: GitHub tag (latest by date)
-    :target: https://github.com/livMatS/dtool-lookup-api/tags
+    :target: https://github.com/jic-dtool/dtool-lookup-api/tags
 
-.. |tests| image:: https://img.shields.io/github/actions/workflow/status/livMatS/dtool-lookup-api/test.yml?branch=main&label=tests
+.. |tests| image:: https://img.shields.io/github/actions/workflow/status/jic-dtool/dtool-lookup-api/test.yml?branch=main&label=tests
     :alt: GitHub Workflow Status
-    :target: https://github.com/livMatS/dtool-lookup-api/actions/workflows/test.yml
+    :target: https://github.com/jic-dtool/dtool-lookup-api/actions/workflows/test.yml
 
 .. |docs| image:: https://readthedocs.org/projects/dtool-lookup-api/badge/?version=latest
     :alt: Documentation Status
@@ -46,7 +46,7 @@ To install the dtool_lookup_api package.
     pip install dtool_lookup_api
 
 This package depends on a `dserver
-<https://github.com/jic-dtool/dserver>`_ instance to talk to.
+<https://github.com/jic-dtool/dservercore>`_ instance to talk to.
 
 Configuration
 -------------
@@ -323,10 +323,10 @@ It is possible to search readme content via
       'uuid': '1a1f9fad-8589-413e-9602-5bbd66bfe675'}]
 
 This requires the server-side `dserver-direct-mongo-plugin
-<https://github.com/livMatS/dserver-direct-mongo-plugin>`_.
+<https://github.com/jic-dtool/dserver-direct-mongo-plugin>`_.
 
 TODO: Response from server-side direct mongo plugin still yields dates as strings.
-Fix within https://github.com/IMTEK-Simulation/dserver-direct-mongo-plugin.
+Fix within https://github.com/jic-dtool/dserver-direct-mongo-plugin.
 
 
 Usage on Jupyter notebook
